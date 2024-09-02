@@ -1,5 +1,5 @@
 import os
-from projeto_gerencia_clientes.pessoa_fisica.validacao import validar_cpf, validar_genero, validar_cep, validar_rua
+from gerencia_clientes.pessoa_fisica.validacao import validar_cpf, validar_genero, validar_cep, validar_rua
 
 
 os.system('cls')
@@ -12,7 +12,7 @@ genero_lista = []
 cep_lista = []
 rua_lista = []
     
-def cadastro():  
+def cadastro_fisica():  
     
     nome = str(input('Nome............................................: '))
 
@@ -45,4 +45,4 @@ def cadastro():
 
     # perguntas para perfil do cliente
     
-cadastro()
+cadastro_fisica()

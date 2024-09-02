@@ -1,5 +1,5 @@
 import os
-from projeto_gerencia_clientes.pessoa_fisica.validacao import cadastro
+from gerencia_clientes.pessoa_fisica.cadastro import cadastro_fisica
 
 
 os.system('cls')
@@ -16,7 +16,7 @@ while True:
     
     if cliente == '1' or cliente == '2':
         if cliente == 1:
-            cadastro()
+            cadastro_fisica()
         else:
             cliente = "Pessoa Juridica"
          
