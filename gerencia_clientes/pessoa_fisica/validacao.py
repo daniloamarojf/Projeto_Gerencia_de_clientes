@@ -47,3 +47,19 @@ def validar_rua(rua):
         rua_lista.append(rua)
         
     return rua
+
+def validar_numero(numero):
+    numero = [] 
+
+
+
+
+
+
+
+    '''complemeto = str(input('Complemento: '))
+    bairro = input('Bairro: ')
+    cidade = input('Cidade: ')
+    uf = input('UF: ')
+    data_nascimento = str(input('Data de nascimento: '))
+    email = str(input('E-mail:'))'''

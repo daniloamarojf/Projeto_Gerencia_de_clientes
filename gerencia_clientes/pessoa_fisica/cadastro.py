@@ -45,4 +45,3 @@ def cadastro_fisica():
 
     # perguntas para perfil do cliente
     
-cadastro_fisica()
